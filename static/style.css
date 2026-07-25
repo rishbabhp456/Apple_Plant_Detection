@@ -1,0 +1,52 @@
+body {
+    /* Vibrant nature gradient */
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.85); /* Frosted glass effect */
+    backdrop-filter: blur(10px);
+}
+
+/* Custom Input Fields */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #a8e063;
+    padding: 10px 15px;
+}
+
+.form-control:focus {
+    border-color: #56ab2f;
+    box-shadow: 0 0 8px rgba(86, 171, 47, 0.4);
+}
+
+/* Vibrant Animated Button */
+.btn-primary {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #438a22, #8bc34a);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(86, 171, 47, 0.4);
+}
+
+#imagePreview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: none;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
